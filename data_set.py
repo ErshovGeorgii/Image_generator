@@ -11,7 +11,7 @@ class MyData(torch.utils.data.Dataset):
         self.root = root
         self.data = pd.read_csv(csv_file)
         self.transforms = transforms
-        #comment
+        #testing comment to test git functions
     def __getitem__(self, idx):
         current_name = 'image_0.5_0.05_{}'.format(idx)
         

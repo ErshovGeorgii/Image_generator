@@ -6,7 +6,7 @@ import math
 import numpy as np
 import pandas as pd
 import os
-
+# another comment to test
 def norm_pdf(x, mu, sigma):
     f_x = math.exp(-1/2 *  ((x - mu) / sigma)**2) / (sigma * math.sqrt(2 * math.pi))
     return f_x
